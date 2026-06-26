@@ -1,3 +1,26 @@
+const about = document.getElementById("about");
+const conect = document.getElementById("conect");
+
+about.addEventListener("click", function () {
+    window.scrollTo(0, 3000);
+});
+conect.addEventListener("click", function () {
+    window.scrollTo(0, 4000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 emailjs.init({
     publicKey: "vXcIvWAgYn19ZlWGR",
 });
@@ -23,3 +46,7 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
         console.log(error);
     });
 });
+
+
+
+
