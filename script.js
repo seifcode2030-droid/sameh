@@ -1,19 +1,17 @@
-const about = document.getElementById("about");
-const conect = document.getElementById("conect");
+const aboutBtn = document.getElementById("about");
+const contactBtn = document.getElementById("conect");
 
-about.addEventListener("click", function () {
-    window.scrollTo(0, 2400);
+aboutBtn.addEventListener("click", () => {
+    document.querySelector(".about").scrollIntoView({
+        behavior: "smooth"
+    });
 });
-conect.addEventListener("click", function () {
-    window.scrollTo(0, 4000);
-});
 
-
-
-
-
-
-
+contactBtn.addEventListener("click", () => {
+    document.querySelector(".contact").scrollIntoView({
+        behavior: "smooth"
+    });
+});;
 
 
 
