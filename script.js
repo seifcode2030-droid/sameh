@@ -2,7 +2,7 @@ const about = document.getElementById("about");
 const conect = document.getElementById("conect");
 
 about.addEventListener("click", function () {
-    window.scrollTo(0, 3000);
+    window.scrollTo(0, 2400);
 });
 conect.addEventListener("click", function () {
     window.scrollTo(0, 4000);
