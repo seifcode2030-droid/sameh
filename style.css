@@ -1,50 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-
-    min-height: 100vh;
-
-    background: linear-gradient(-45deg,
-            #ee7752,
-            #e73c7e,
-            #23a6d5,
-            #23d5ab);
-
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-
-    font-family: Arial, sans-serif;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
+/* body {
+    background-color: #12005c !important;
+} */
 
 .logo {
     font-size: 60px;
     font-weight: bold;
-    color: white;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: flex-start;
-    gap: 30px;
-    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 768px) {
@@ -61,20 +22,18 @@ body {
 .main-title {
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .sub-title {
     font-size: 80px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 242, 0);
 }
 
 p {
-    padding-top: 10%;
     font-size: 20px;
-    color: white;
-    margin-left: 10%;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -89,6 +48,7 @@ img {
     max-width: 600px;
     margin: 50px auto;
     padding: 30px;
+    margin-bottom: 0px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -138,7 +98,7 @@ a {
 .reviews {
     margin-top: 100px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .review {
@@ -176,11 +136,12 @@ a {
     display: flex;
     justify-content: center;
     gap: 25px;
-    margin-top: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .social-links a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-decoration: none;
     transition: 0.3s;
@@ -189,4 +150,41 @@ a {
 .social-links a:hover{
     transform: scale(1.2);
 }
+
+.card{
+    display:inline-block;
+}
+
+#all{
+    background-color: #12005c;
+    padding-bottom: 1%;
+}
+
+section form input,
+textarea,
+button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #12005c;
+    color: white;
+}
+
+section form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+#more{
+    background-color: #F5F5F5;
+}
+
+#contact{
+    background-color: #ffffff;
+}
+
 
