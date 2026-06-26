@@ -217,3 +217,10 @@ section form textarea {
     margin-top: 10px;
     font-size: 16px;
 }
+
+.features-circles{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
